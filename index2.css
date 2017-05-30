@@ -197,7 +197,7 @@ div.nav {
   position: relative;
   transition: all 5s ease-in-out;
   border: 20px solid white;
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
   color: white;
 }
 
