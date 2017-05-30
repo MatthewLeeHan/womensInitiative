@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	line-height: 24px;
+}
+
+.nav {
+	height: 80px;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding-top: 30px;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 120%;
+	color: #0E8A48;
+	margin-left: 100px;
+	height: 20px;
+}
+
+
+.main-photo {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 50px;
+	vertical-align: top;
+	margin-top: -24px;
+}
+
+div.nav { 
+    position: fixed;
+    background: rgba(255, 255, 255, 0.7);
+    top: 0;
+    left: 0;
+    right:0;
+    padding: 10px;
+}
+
+.logo {
+	width: 30%;
+	background: transparent;
+	vertical-align: top;
+	margin-top: -105px;
+	position: absolute;
+	left: -65px;
+}
