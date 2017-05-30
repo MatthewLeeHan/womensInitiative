@@ -196,12 +196,19 @@ div.nav {
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
+  border: 20px solid white;
+  background-color: black;
+  color: white;
 }
 
 .popup h2 {
   margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  /*color: #333;
+  font-family: Tahoma, Arial, sans-serif;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50pt;
+  text-align: center;
+
 }
 .popup .close {
   position: absolute;
@@ -220,7 +227,18 @@ div.nav {
   max-height: 30%;
   overflow: auto;
 }
+.popupTitle{
+	margin-top: 10%;
+}
+.description{
+	width: 30%;
+	font-size: 14px;
+	display: inline-block;
+}
 
+.popupTitle p{
+	font-size: 16px;
+}
 @media screen and (max-width: 700px){
   .box{
     width: 70%;
