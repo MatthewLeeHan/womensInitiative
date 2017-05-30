@@ -1,0 +1,48 @@
+body{
+	padding: 0;
+	margin:0;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.mainTitle{
+	margin-left: 5%;
+}
+
+.sisterCircle{
+	background-image: url('imagesOne/sisterCircle.jpg');
+	width:40%;
+	height: 400px;
+	position: relative;
+	margin-top:1%;
+	display: inline-block;
+	margin-right: 2%;
+	margin-left: 9%;
+
+}
+.sisterCircleText{
+	position: absolute;
+	bottom: 0;
+	background: rgba(255,255,255,0.5);
+	font-size: 12px;
+	padding-left: 4%;
+
+}
+.womensSupportGroup{
+	display: inline-block;
+	background-image: url('imagesOne/womensSupportGroup.jpg');
+	width:40%;
+	height: 400px;
+	position: relative;
+	background-size: cover;
+}
+.womensSupportGroupText{
+	position: absolute;
+	bottom: 0;
+	background: rgba(255,255,255,0.5);
+	font-size: 12px;
+	padding-left: 4%;
+}
+.eventsContainer{
+	margin-left: auto;
+	margin-right: auto;
+}
