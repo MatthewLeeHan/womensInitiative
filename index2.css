@@ -55,3 +55,12 @@ div.nav {
 	position: absolute;
 	left: -65px;
 }
+
+.main-paragraph {
+	padding-left: 5%;
+	margin-top: -6px;
+}
+
+.main-paragraph p {
+	font-size: 14pt;
+}
