@@ -8,7 +8,10 @@ body {
 	height: 80px;
 	display: inline-block;
 	text-align: center;
-	
+}
+
+.sticky {
+	display: none;
 }
 
 ul {
@@ -21,11 +24,12 @@ li {
 	display: inline-block;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: bold;
-	font-size: 120%;
-	color: #0E8A48;
+	font-weight: 900;
+	font-size: 130%;
+	color: #0D7F43;
 	margin-left: 100px;
 	height: 20px;
+	/*text-shadow: 1px 1px black;*/
 }
 
 
@@ -40,7 +44,7 @@ li {
 
 div.nav { 
     position: fixed;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(226, 226, 226, 0.9);
     top: 0;
     left: 0;
     right:0;
@@ -58,9 +62,67 @@ div.nav {
 
 .main-paragraph {
 	padding-left: 5%;
-	margin-top: -6px;
 }
 
 .main-paragraph p {
 	font-size: 14pt;
+}
+
+.mainTitle{
+    margin-left: 5%;
+}
+.boxOne{
+    width:40%;
+    height: 400px;
+    position: relative;
+    margin-top:1%;
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 9%;
+}
+.sisterCircle{
+    background-image: url('imagesOne/sisterCircle.jpg');
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    background: rgba(255,255,255,0.5);
+    font-size: 12px;
+    padding-left: 4%;
+}
+.boxTwo{
+    display: inline-block;
+    width:40%;
+    height: 400px;
+    position: relative;
+    background-size: cover;
+}
+.womensSupportGroup{
+    background-image: url('imagesOne/womensSupportGroup.jpg');
+}
+.eventsContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+.knittingCircle{
+    background-image: url('imagesOne/knittingCircle.jpg');
+}
+.yoga{
+    background-image: url('imagesOne/yoga.jpg');
+}
+.yogaColor{
+    background-image: url('imagesOne/yogaColor.jpg');
+    background-size: cover;
+}
+.westAfricanDance{
+    background-image: url('imagesOne/westAfricanDance.jpg');
+}
+.architect{
+    background-image: url('imagesOne/architect.jpg')
+}
+.artTherapy{
+    background-image: url('imagesOne/art.jpg')
+}
+.seperationDivorceGroup{
+    background-image: url('imagesOne/divorce.jpeg')
 }
