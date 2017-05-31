@@ -273,7 +273,7 @@ div.nav {
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: none;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -291,7 +291,7 @@ div.nav {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: none;
 }
 
 /* Change color of dropdown links on hover */
@@ -333,11 +333,19 @@ div.nav {
 	}
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 810px) {
 	li {
 		margin-left: 18px;
+        display: none;
 	}
+    .dropdown{
+        display: inline-block;
+    }
+    .dropdown-content a{
+        display: block;
+    }
 }
+
 
 
 
