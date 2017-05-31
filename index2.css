@@ -27,7 +27,7 @@ li {
 	font-weight: 900;
 	font-size: 130%;
 	color: #0D7F43;
-	margin-left: 100px;
+	margin-left: 8%;
 	height: 20px;
 	/*text-shadow: 1px 1px black;*/
 }
@@ -141,7 +141,7 @@ div.nav {
     margin-bottom: 5%;
 }
 .knittingCircle{
-    background-image: url('imagesOne/knittingCircle.jpg');
+    background-image: url('knittingcircle.jpg');
 }
 .yoga{
     background-image: url('imagesOne/yogaColor.jpg');
@@ -152,13 +152,14 @@ div.nav {
     background-size: cover;
 }
 .architect{
-    background-image: url('imagesOne/architect.jpg')
+    background-image: url('imagesOne/architect.jpg');
 }
 .artTherapy{
-    background-image: url('imagesOne/art.jpg')
+    background-image: url('grouppainting.jpg');
+    background-size: cover;
 }
 .seperationDivorceGroup{
-    background-image: url('imagesOne/divorce.jpeg')
+    background-image: url('imagesOne/divorce.jpeg');
 }
 
 .footer {
@@ -209,6 +210,7 @@ div.nav {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 50pt;
   text-align: center;
+  color: #53BB48;
 
 }
 .popup .close {
@@ -219,10 +221,10 @@ div.nav {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 .popup .close:hover {
-  color: #06D85F;
+  color: yellow;
 }
 
 .popup .content {
@@ -256,6 +258,12 @@ div.nav {
   .popup{
     width: 70%;
   }
+}
+
+@media screen and (max-width: 1150px) {
+	li {
+		margin-left: 50px;
+	}
 }
 
 
