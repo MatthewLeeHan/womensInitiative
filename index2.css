@@ -190,10 +190,11 @@ div.nav {
 
 .popup {
   margin: 70px auto;
-  padding: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 40%;
   position: relative;
   transition: all 5s ease-in-out;
   border: 20px solid white;
@@ -223,22 +224,31 @@ div.nav {
 .popup .close:hover {
   color: #06D85F;
 }
+
 .popup .content {
   max-height: 30%;
   overflow: auto;
 }
+
 .popupTitle{
 	margin-top: 10%;
 }
-.description{
-	width: 30%;
-	font-size: 14px;
-	display: inline-block;
+
+.description {
+	font-size: 18px;
+	vertical-align: middle;
 }
 
 .popupTitle p{
-	font-size: 16px;
+	font-size: 20px;
+	text-align: center;
 }
+
+.modal-footer {
+	text-align: center;
+	font-size: 14px;
+}
+
 @media screen and (max-width: 700px){
   .box{
     width: 70%;
@@ -247,4 +257,6 @@ div.nav {
     width: 70%;
   }
 }
+
+
 
