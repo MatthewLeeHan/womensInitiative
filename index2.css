@@ -262,9 +262,9 @@ div.nav {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+
     color: white;
-    padding: 16px;
+    padding: 4px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -284,6 +284,7 @@ div.nav {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    right: 0;
 }
 
 /* Links inside the dropdown */
@@ -306,7 +307,12 @@ div.nav {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-
+.navIcon{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
 @media screen and (max-width: 700px){
   .box{
     width: 70%;
@@ -335,14 +341,23 @@ div.nav {
 
 @media screen and (max-width: 810px) {
 	li {
-		margin-left: 18px;
+		
         display: none;
 	}
     .dropdown{
+        margin-left: 70%;
         display: inline-block;
+        vertical-align: top;
+        position: relative;
+        transform: translateY(-35%);
+
     }
     .dropdown-content a{
         display: block;
+    }
+
+    div.nav {
+      padding: 0.1%;
     }
 }
 
